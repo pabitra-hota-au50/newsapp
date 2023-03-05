@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Signup Page</h1>
+            <form action="/userSignup" method="post">
+                <label class="label" for="name">Type your name :</label>
+                <input id="name" name="name" type="text" placeholder="Type your name here" required /><br>
+                <label class="label" for="email">Type your email :</label>
+                <input id="email" name="email" type="email" placeholder="Type your email here" required /><br>
+                <label class="label" for="password">Type your password :</label>
+                <input id="cpassword" name="password" type="password" placeholder="Type your password here"
+                    required /><br>
+                <label class="label" for="cpassword">confirm your password :</label>
+                <input id="cpassword" name="cpassword" type="password" placeholder="rewrite your password here"
+                    required /><br>
+                <input type="submit" id="btn" />
+
+            </form>
+            <p>login instead :</p><br>
+            <a href="/login"><button id="btn2">log in</button></a>
+        </div>
+    </div>
+</body>
+
+</html>
